@@ -1,0 +1,37 @@
+---
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="es" class="scroll-smooth">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="description"
+			content="Protegé tus derechos y tu patrimonio con Estudio BZ. Expertos en Derecho Civil, Laboral y soluciones rápidas en Gestoría Automotor. ¡Consulta urgente aquí!"
+		/>
+		<meta
+			name="keywords"
+			content="Abogados Lomas de Zamora, Mandatario Automotor, Sucesiones, Despidos, Multas de tránsito, Gestoría automotor, Gestoría integral"
+		/>
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+
+		<!-- Google Fonts: Inter -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body class="font-sans text-secondary antialiased bg-white">
+		<slot />
+	</body>
+</html>

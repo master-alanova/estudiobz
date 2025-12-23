@@ -1,0 +1,22 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header";
+import Hero from "../components/Hero";
+import Identity from "../components/Identity";
+import Services from "../components/Services";
+import DigitalAgility from "../components/DigitalAgility";
+import Staff from "../components/Staff";
+import Footer from "../components/Footer";
+---
+
+<Layout title="Estudio BZ | Abogados y Mandatarios Automotor en Buenos Aires">
+	<Header client:load />
+	<main>
+		<Hero client:load />
+		<Identity client:visible />
+		<Services client:visible />
+		<DigitalAgility client:visible />
+		<Staff client:visible />
+	</main>
+	<Footer client:visible />
+</Layout>
