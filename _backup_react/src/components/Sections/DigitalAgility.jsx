@@ -72,17 +72,6 @@ const DigitalAgility = () => {
                             <p className="text-gray-400 mb-6">
                                 ¿Tenés infracciones que te impiden vender o renovar? Analizamos tu situación y gestionamos el libre deuda al mejor costo y en tiempo récord.
                             </p>
-
-                            <div className="grid grid-cols-2 gap-4">
-                                <div className="bg-secondary-800/50 p-4 rounded-xl border border-white/5 text-center">
-                                    <span className="block text-3xl font-bold text-primary mb-1">24hs</span>
-                                    <span className="text-xs text-gray-400 uppercase tracking-wider">Informe Inicial</span>
-                                </div>
-                                <div className="bg-secondary-800/50 p-4 rounded-xl border border-white/5 text-center">
-                                    <span className="block text-3xl font-bold text-primary mb-1">100%</span>
-                                    <span className="text-xs text-gray-400 uppercase tracking-wider">Online</span>
-                                </div>
-                            </div>
                         </div>
                     </motion.div>
 
