@@ -256,19 +256,6 @@ const Services = () => {
                                     Consultar Multas
                                 </a>
                             </div>
-
-                            <div className="mt-4">
-                                <div className="grid grid-cols-2 gap-4">
-                                    <div className="bg-black/20 p-4 rounded-xl border border-white/5 text-center">
-                                        <span className="block text-3xl font-bold text-primary mb-1">24hs</span>
-                                        <span className="text-xs text-gray-400 uppercase tracking-wider">Informe Inicial</span>
-                                    </div>
-                                    <div className="bg-black/20 p-4 rounded-xl border border-white/5 text-center">
-                                        <span className="block text-3xl font-bold text-primary mb-1">100%</span>
-                                        <span className="text-xs text-gray-400 uppercase tracking-wider">Online</span>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </motion.div>
                 </div>
