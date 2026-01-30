@@ -10,7 +10,7 @@ const Header = () => {
         { name: 'Servicios', href: '#servicios' },
         { name: 'Gestiones Online', href: '#gestiones' },
         { name: 'Nuestro Equipo', href: '#equipo' },
-        { name: 'El Estudio', href: '#estudio' },
+        { name: 'Ir al Estudio', href: '#contacto' },
     ];
 
     return (
@@ -19,9 +19,13 @@ const Header = () => {
                 <div className="flex justify-between items-center h-20">
                     {/* Logo */}
                     <div className="flex-shrink-0 flex items-center cursor-pointer" onClick={() => window.scrollTo(0, 0)}>
-                        <span className="text-2xl font-bold text-contrast tracking-tight">
-                            Estudio<span className="text-primary-600">BZ</span>
-                        </span>
+                        <img
+                            decoding="async"
+                            loading="lazy"
+                            src="/brand_EstudioBZ_fullcolor.svg"
+                            alt="Estudio BZ"
+                            className="w-40 object-contain"
+                        />
                     </div>
 
                     {/* Desktop Navigation */}
@@ -36,7 +40,7 @@ const Header = () => {
                             </a>
                         ))}
                         <a
-                            href="https://wa.me/5491100000000?text=Hola%20Estudio%20BZ,%20necesito%20asesoría%20urgente"
+                            href="https://wa.me/5491135593634?text=Hola%20Estudio%20BZ,%20necesito%20asesoría%20urgente%20me%20contacto%20desde%20la%20web"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="bg-red-500 hover:bg-red-600 text-white px-5 py-2.5 rounded-lg font-semibold shadow-md transition-transform hover:-translate-y-0.5 flex items-center gap-2"

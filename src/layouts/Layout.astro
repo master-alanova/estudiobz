@@ -1,27 +1,87 @@
 ---
+import { ClientRouter } from "astro:transitions";
+
 interface Props {
 	title: string;
+	description?: string;
 }
 
-const { title } = Astro.props;
+const {
+	title = " Estudio BZ | Abogados y Mandatarios Automotor en Buenos Aires",
+	description = "Protegé tus derechos y tu patrimonio con Estudio BZ. Expertos en Derecho Civil, Laboral y soluciones rápidas en Gestoría Automotor. ¡Consulta urgente aquí!",
+} = Astro.props;
 ---
 
 <!doctype html>
 <html lang="es" class="scroll-smooth">
 	<head>
+		<!-- Google TAGS -->
+
+		<!-- Google TAGS END -->
 		<meta charset="UTF-8" />
-		<meta
-			name="description"
-			content="Protegé tus derechos y tu patrimonio con Estudio BZ. Expertos en Derecho Civil, Laboral y soluciones rápidas en Gestoría Automotor. ¡Consulta urgente aquí!"
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="/favicon-32x32.png"
 		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="192x192"
+			href="/favicon-192x192.png"
+		/>
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+		<link rel="manifest" href="/site.webmanifest" />
+		<link rel="canonical" href="https://www.estudiobz.com/" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+		<meta name="description" content={description} />
 		<meta
 			name="keywords"
 			content="Abogados Lomas de Zamora, Mandatario Automotor, Sucesiones, Despidos, Multas de tránsito, Gestoría automotor, Gestoría integral"
 		/>
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
+
+		<!-- Open Graph -->
+		<meta property="og:site_name" content="Estudio BZ" />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={description} />
+		<meta property="og:url" content="https://www.estudiobz.com/" />
+		<meta
+			property="og:image"
+			content="https://www.estudiobz.com/cover.png"
+		/>
+		<meta
+			property="og:image:url"
+			content="https://www.estudiobz.com/cover.png"
+		/>
+		<meta
+			property="og:image:secure_url"
+			content="https://www.estudiobz.com/cover.png"
+		/>
+		<meta property="og:image:type" content="image/jpeg" />
+		<meta property="og:image:width" content="1200" />
+		<meta property="og:image:height" content="600" />
+		<meta
+			property="og:image:alt"
+			content="Protegé tus derechos y tu patrimonio con Estudio BZ"
+		/>
+
+		<!-- Twitter -->
+		<meta name="twitter:title" content={title} />
+		<meta name="twitter:description" content={description} />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta
+			name="twitter:image"
+			content="https://www.estudiobz.com/cover.png"
+		/>
+		<meta
+			name="twitter:image:alt"
+			content="Protegé tus derechos y tu patrimonio con Estudio BZ"
+		/>
+		<meta name="twitter:domain" content="https://estudiobz.com" />
 
 		<!-- Google Fonts: Inter -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -30,6 +90,7 @@ const { title } = Astro.props;
 			href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
 			rel="stylesheet"
 		/>
+		<ClientRouter />
 	</head>
 	<body class="font-sans text-secondary antialiased bg-white">
 		<slot />

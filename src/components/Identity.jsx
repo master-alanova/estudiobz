@@ -11,7 +11,7 @@ const Identity = () => {
         },
         {
             icon: <Zap className="w-8 h-8 text-primary-600" />,
-            title: "Rapidez y Eficacia",
+            title: "Rapidez y Efectividad",
             description: "Gestionamos tus trámites con la mayor celeridad para que obtengas resultados pronto."
         },
         {
@@ -72,7 +72,7 @@ const Identity = () => {
                             variants={itemVariants}
                             className="p-8 rounded-2xl bg-gray-50 hover:bg-white hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-100 group text-center md:text-left"
                         >
-                            <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mb-6 mx-auto md:mx-0 group-hover:scale-110 transition-transform duration-300">
+                            <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mb-6 mx-auto md:mx-0 group-hover:scale-110 transition-transform duration-300">
                                 {pillar.icon}
                             </div>
                             <h3 className="text-xl font-bold text-contrast mb-3">{pillar.title}</h3>

@@ -1,0 +1,21 @@
+{
+    "name": "BTM Capacitaciones",
+    "short_name": "BTM",
+    "description": "Capacitaciones en RCP, DEA y Primeros Socorros",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#FEFEFE",
+    "theme_color": "#000AE8",
+    "icons": [
+        {
+            "src": "/favicon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/favicon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

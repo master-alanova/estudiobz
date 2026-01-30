@@ -34,14 +34,14 @@ const Hero = () => {
                     >
                         <a
                             href="#servicios"
-                            className="w-full sm:w-auto px-8 py-4 bg-primary text-secondary-900 font-bold rounded-xl shadow-lg hover:shadow-xl hover:bg-primary-400 transition-all flex items-center justify-center gap-2 group"
+                            className="w-full sm:w-auto px-8 py-4 bg-primary text-contrast font-bold rounded-xl shadow-lg hover:shadow-xl hover:bg-primary-400 transition-all flex items-center justify-center gap-2 group"
                         >
                             Explorar Servicios
                             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                         </a>
 
                         <a
-                            href="https://wa.me/5491100000000"
+                            href="https://wa.me/5491135593634?text=Hola%20Estudio%20BZ,%20vengo%20desde%20el%20sitio%20web%20necesito%20Asesoría%20Integral"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="w-full sm:w-auto px-8 py-4 bg-white text-secondary border-2 border-gray-100 font-bold rounded-xl hover:bg-gray-50 transition-all flex items-center justify-center gap-2 group"

@@ -9,7 +9,7 @@ const Footer = () => {
     };
 
     return (
-        <footer id="contacto" className="bg-contrast text-white pt-20 pb-10">
+        <footer id="contacto" className="bg-contrast text-white pt-24 pb-10">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid lg:grid-cols-2 gap-12 lg:gap-24 mb-16">
 
@@ -23,28 +23,28 @@ const Footer = () => {
                         <div className="space-y-6">
                             <div className="flex items-start gap-4">
                                 <MapPin className="w-6 h-6 text-primary mt-1" />
-                                <div>
+                                <a href="https://maps.app.goo.gl/tpfRAYtQX6ttiQgw9">
                                     <h4 className="font-bold text-lg">Lomas de Zamora</h4>
-                                    <p className="text-gray-400">Loria 341</p>
-                                </div>
+                                    <p className="text-gray-400">Loria 341, 4to piso C. </p>
+                                </a>
                             </div>
 
                             <div className="flex items-start gap-4">
                                 <MapPin className="w-6 h-6 text-primary mt-1" />
-                                <div>
+                                <a href="https://maps.app.goo.gl/kFhmD7YuU32tjyG2A">
                                     <h4 className="font-bold text-lg">CABA</h4>
-                                    <p className="text-gray-400">Av. Belgrano 615</p>
-                                </div>
+                                    <p className="text-gray-400">Av. Belgrano 615, piso 1.</p>
+                                </a>
                             </div>
 
                             <div className="flex items-center gap-4 mt-8">
-                                <a href="https://instagram.com" className="p-3 bg-white/10 rounded-full hover:bg-primary hover:text-contrast transition-colors">
+                                <a href="https://instagram.com/estudio_bz" className="p-3 bg-white/10 rounded-full hover:bg-primary hover:text-contrast transition-colors">
                                     <Instagram className="w-5 h-5" />
                                 </a>
-                                <a href="https://wa.me/5491100000000" className="p-3 bg-white/10 rounded-full hover:bg-primary hover:text-contrast transition-colors">
+                                <a href="https://wa.me/5491135593634" className="p-3 bg-white/10 rounded-full hover:bg-primary hover:text-contrast transition-colors">
                                     <MessageCircle className="w-5 h-5" />
                                 </a>
-                                <a href="mailto:info@estudiobz.com" className="p-3 bg-white/10 rounded-full hover:bg-primary hover:text-contrast transition-colors">
+                                <a href="mailto:[EMAIL_ADDRESS]" className="p-3 bg-white/10 rounded-full hover:bg-primary hover:text-contrast transition-colors">
                                     <Mail className="w-5 h-5" />
                                 </a>
                             </div>
@@ -81,8 +81,10 @@ const Footer = () => {
                             </div>
                             <button
                                 type="submit"
-                                className="w-full bg-primary text-secondary-900 font-bold py-4 rounded-lg hover:bg-white transition-colors flex items-center justify-center gap-2"
+                                className="w-full bg-primary text-contrast font-bold rounded-xl shadow-lg hover:shadow-xl hover:bg-primary/90 transition-all border border-contrast/10 py-4 rounded-lg hover:bg-white transition-colors flex items-center justify-center gap-2"
                             >
+
+
                                 Enviar Mensaje
                                 <Send className="w-4 h-4" />
                             </button>
